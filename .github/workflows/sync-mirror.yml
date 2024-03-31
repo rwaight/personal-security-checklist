@@ -2,8 +2,8 @@
 name: 🪞 Mirror to Codeberg
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '30 0 * * 0'
+  #schedule:
+  #  - cron: '30 0 * * 0'
 jobs:
   codeberg:
     runs-on: ubuntu-latest
